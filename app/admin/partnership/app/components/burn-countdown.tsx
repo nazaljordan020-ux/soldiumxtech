@@ -6,7 +6,7 @@ import { doc, onSnapshot } from "firebase/firestore"
 import { db } from "@/lib/firebase"
 
 // Default fallback date if Firebase is not configured
-const DEFAULT_BURN_DATE = "2026-02-22T00:00:00Z"
+const DEFAULT_BURN_DATE = "2026-02-21T00:00:00Z"
 
 interface TimeLeft {
   days: number
